@@ -1,0 +1,673 @@
+@media (max-width: 1500px) {
+  body {
+    min-width: auto;
+  }
+  .inner {
+    width: 100%;
+  }
+  header .header-inner {
+    width: 97vw;
+  }
+  .visual {
+    margin: -20px 0 0 0;
+  }
+  .visual .visual-inner {
+    display: inline;
+  }
+  .visual .right {
+    display: none;
+  }
+  .visual .left {
+    width: 100%;
+  }
+  .visual .visual-slider, .visual .notice {
+    margin: 0 20px;
+  }
+  .visual .notice {
+    height: 86px;
+    line-height: 86px;
+  }
+  .shortcut .slick-prev, .shortcut .slick-next {
+    top: auto;
+    bottom: -38px;
+  }
+  .shortcut .slick-prev:before, .shortcut .slick-next:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(../img/arrow-right.svg) no-repeat center/contain;
+  }
+  .shortcut .slick-prev {
+    left: 93%;
+  }
+  .shortcut .slick-prev:before {
+    transform: rotate(180deg);
+  }
+  .shortcut .slick-next {
+    right: 2%;
+  }
+  .anniversary .txt {
+    left: 100px;
+    top: 180px;
+  }
+  .anniversary .object-ani .num {
+    top: 41%;
+    right: 28%;
+  }
+  .anniversary .object-ani .num .num2 {
+    width: 180px;
+  }
+  .anniversary .object-ani .num .num5 {
+    width: 196px;
+  }
+  .anniversary .object-ani .sphere {
+    width: 200px;
+    left: -137px;
+    top: 377px;
+  }
+}
+@media (max-height: 850px) {
+  .visual .visual-slider {
+    height: 508px;
+  }
+  .visual .notice {
+    height: 52px;
+    line-height: 52px;
+  }
+  .shortcut .shortcut-slider div a {
+    margin: 6px 5px;
+  }
+}
+@media (max-width: 1450px) {
+  .intro, .tip, .new, .today {
+    padding: 130px 0;
+  }
+  .shortcut .shortcut-slider div a {
+    width: 150px;
+    height: 126px;
+    padding: 88px 20px 20px;
+  }
+  .shortcut .shortcut-slider div a:before {
+    left: 50%;
+    top: 18px;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+  .shortcut .shortcut-slider div a h4 {
+    text-align: center;
+  }
+  .shortcut .shortcut-slider div p {
+    display: none;
+  }
+  .intro .heading, .intro .items {
+    width: 100%;
+    float: none;
+  }
+  .intro .heading {
+    margin-bottom: 70px;
+  }
+  .intro .items a {
+    height: 380px;
+    padding-top: 195px;
+    background-size: 454px;
+  }
+  .intro .items a:hover {
+    background-size: 442px;
+  }
+  .intro .items a h3 {
+    margin-bottom: 18px;
+  }
+  .intro .items a p {
+    margin-bottom: 50px;
+  }
+  .tip .inner {
+    width: 100%;
+  }
+  .tip .items .item {
+    background-size: 288px;
+  }
+  .tip .items .item:last-child {
+    background-size: 235px;
+  }
+  .new .heading, .new .new-slider {
+    float: none;
+    width: 100%;
+  }
+  .new .heading {
+    margin-bottom: 70px;
+  }
+  .banner {
+    padding-top: 130px;
+  }
+  .event .right > div {
+    background-size: 184px;
+    padding: 25px 0 30px 20px;
+  }
+  .event .right > div span {
+    font-size: 11px;
+  }
+  .event .right > div h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  .today .today-slider a {
+    background-position: right -24px bottom;
+  }
+  .today .today-slider a h3 {
+    font-size: 18px;
+  }
+  .contact {
+    margin-bottom: 130px;
+  }
+  .contact .contact-info {
+    width: 67.5%;
+  }
+  .contact .contact-info .general-contact .click {
+    padding: 15px 20px;
+  }
+  .contact .contact-info .general-contact .click:before {
+    display: none;
+  }
+  .contact .contact-info .general-contact .click:after {
+    right: 20px;
+  }
+  .contact .contact-info .center ul {
+    padding: 15px 20px;
+  }
+  .contact .contact-info .center ul li {
+    font-size: 12px;
+  }
+  .contact .contact-info .center ul li a {
+    margin-left: 10px;
+  }
+  .contact .paint-banner {
+    width: 30%;
+    background-size: 206px;
+    padding: 40px 0 156px 40px;
+  }
+}
+@media (max-width: 1038px) {
+  .intro, .tip, .new, .today {
+    padding: 100px 0;
+  }
+  .visual .visual-slider {
+    border: 1px solid #ddd;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+  }
+  .visual .visual-slider > div .txt {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: auto;
+    bottom: -50px;
+    z-index: 100;
+    color: #111;
+    padding: 20px;
+  }
+  .visual .visual-slider > div .txt h2 {
+    flex: 3;
+    font-size: 20px;
+  }
+  .visual .visual-slider > div .txt p {
+    flex: 5;
+  }
+  .visual .visual-slider > div .txt button {
+    width: 168px;
+    background-color: #111;
+    padding: 12px 0;
+    font-size: 12px;
+  }
+  .visual .visual-slider .slick-prev:before, .visual .visual-slider .slick-next:before {
+    filter: none;
+  }
+  .visual .visual-slider .slick-prev {
+    left: 40%;
+  }
+  .visual .visual-slider .slick-next {
+    right: 40%;
+  }
+  .visual .visual-slider .slick-dots li button:before {
+    color: #000;
+  }
+  .visual .notice {
+    height: 52px;
+    line-height: 51px;
+  }
+  .shortcut .shortcut-slider div a {
+    width: 100px;
+    padding: 88px 8px 10px;
+  }
+  .shortcut .shortcut-slider div a h4 {
+    font-size: 12px;
+  }
+  .shortcut .shortcut-slider div a h4:after {
+    display: none;
+  }
+  .shortcut .shortcut-slider .slick-prev {
+    left: 87%;
+  }
+  .shortcut .shortcut-slider .slick-next {
+    right: 4%;
+  }
+  .intro .items a {
+    padding-top: 160px;
+    background-size: 320px;
+  }
+  .intro .items a:hover {
+    background-size: 340px;
+  }
+  .tip .items .item {
+    padding: 40px 30px;
+    background-size: 204px;
+    background-position: right -18px bottom 20px;
+  }
+  .tip .items .item:last-child {
+    background-size: 150px;
+  }
+  .banner {
+    padding-top: 100px;
+  }
+  .banner h2 {
+    margin-bottom: 20px;
+  }
+  .banner .bg {
+    padding: 70px 0 50px;
+  }
+  .event .event-inner {
+    flex-direction: column;
+  }
+  .event .left {
+    margin: 0 0 20px 0;
+  }
+  .event .right {
+    display: flex;
+  }
+  .event .right > div {
+    flex: 1;
+  }
+  .event .right > div:last-child {
+    margin-left: 20px;
+  }
+  .today .today-slider a {
+    background-position: right bottom;
+  }
+  .today .today-slider a:before {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+  .today .today-slider a h3 {
+    font-size: 16px;
+  }
+  .banner-service {
+    padding: 100px 0 20px;
+  }
+  .banner-service .bg {
+    padding: 50px 0;
+    height: auto;
+  }
+  .contact {
+    margin-bottom: 100px;
+  }
+  .contact .contact-info, .contact .paint-banner {
+    float: none;
+    width: 100%;
+  }
+  .contact .contact-info {
+    margin-bottom: 20px;
+  }
+  .contact .paint-banner {
+    padding: 40px;
+    background-position: right 20px bottom 17px;
+  }
+  .anniversary {
+    height: 538px;
+  }
+  .anniversary .txt {
+    top: 70px;
+  }
+  .anniversary .txt h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .anniversary .txt > div {
+    padding: 30px 40px 30px 30px;
+  }
+  .anniversary .txt > div h3 {
+    font-size: 20px;
+  }
+  .anniversary .txt > div .answer button {
+    padding: 10px 30px;
+    font-size: 13px;
+  }
+  .anniversary .object-ani .pretzel {
+    width: 149px;
+    right: 58px;
+    top: 51px;
+  }
+  .anniversary .object-ani .cloud {
+    width: 422px;
+  }
+  footer .left, footer .right {
+    float: none;
+    width: 100%;
+  }
+  footer .left p {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .visual .visual-slider > div .txt {
+    flex-direction: column;
+    text-align: center;
+  }
+  .visual .visual-slider > div .txt h2 {
+    font-size: 30px;
+  }
+  .visual .visual-slider .slick-prev {
+    left: 38%;
+  }
+  .visual .visual-slider .slick-next {
+    right: 38%;
+  }
+  .intro .items a {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+  }
+  .intro .items a:nth-child(2), .intro .items a:nth-child(3) {
+    background: #fff;
+  }
+  .tip .items .item {
+    background: none;
+  }
+  .tip .items .item:last-child {
+    background: none;
+  }
+  .new .new-slider .slick-prev {
+    left: 42%;
+  }
+  .new .new-slider .slick-next {
+    right: 42%;
+  }
+  .event .left ul li .image {
+    height: 180px;
+  }
+  .event .right > div {
+    background: none;
+  }
+  .event .right > div:last-child {
+    background: none;
+  }
+  .today .today-slider a {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .today .today-slider a:before {
+    bottom: auto;
+    top: 30px;
+    right: 30px;
+  }
+  .today .today-slider a h3 {
+    font-size: 20px;
+  }
+  .contact .contact-info > div {
+    padding: 25px;
+  }
+  .contact .contact-info .general-contact button {
+    right: 20px;
+    top: 20px;
+  }
+  .anniversary {
+    padding: 50px 30px;
+    height: auto;
+  }
+  .anniversary .txt {
+    position: static;
+  }
+  .anniversary .txt > div {
+    display: inline-block;
+  }
+  .anniversary .object-ani .num {
+    top: 48%;
+  }
+  .anniversary .object-ani .num .num2 {
+    width: 145px;
+    right: -34px;
+  }
+  .anniversary .object-ani .num .num5 {
+    width: 154px;
+  }
+  footer {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 660px) {
+  .intro, .tip, .new, .today {
+    padding: 70px 0;
+  }
+  header .header-inner {
+    width: 100%;
+  }
+  header .header-right .alpack, header .header-right .login {
+    display: none;
+  }
+  header nav {
+    width: 100%;
+    right: -110%;
+  }
+  .visual .visual-slider > div .txt p {
+    margin: 12px 0 20px;
+  }
+  .visual .visual-slider .slick-prev {
+    left: 30%;
+  }
+  .visual .visual-slider .slick-next {
+    right: 30%;
+  }
+  .visual .notice {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .visual .notice h4 {
+    margin-right: 25px;
+  }
+  .visual .notice span {
+    display: none;
+  }
+  .shortcut .shortcut-slider .slick-prev {
+    left: 79%;
+  }
+  .shortcut .shortcut-slider .slick-next {
+    right: 5%;
+  }
+  .tip .items {
+    flex-direction: column;
+  }
+  .tip .items .item {
+    margin: 0 0 20px 0;
+    padding: 30px;
+  }
+  .tip .items .item button {
+    margin-bottom: 30px;
+  }
+  .new {
+    padding-bottom: 140px;
+  }
+  .banner h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .banner .bg {
+    padding: 40px 0 30px;
+  }
+  .banner .bg button {
+    font-size: 13px;
+  }
+  .event .left {
+    margin-bottom: 0;
+  }
+  .event .left ul {
+    flex-direction: column;
+  }
+  .event .left ul li {
+    margin: 0 0 20px 0;
+  }
+  .event .left ul li .image {
+    background-size: 475px;
+  }
+  .event .left button {
+    display: none;
+  }
+  .event .right {
+    flex-direction: column;
+  }
+  .event .right > div:last-child {
+    margin: 0;
+  }
+  .banner-service {
+    padding-top: 50px;
+  }
+  .banner-service .bg {
+    padding: 40px 0;
+    background: rgba(65, 115, 192, 0.1);
+  }
+  .contact .contact-info {
+    flex-direction: column;
+  }
+  .contact .contact-info .general-contact {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .contact .contact-info .center ul li {
+    font-size: 15px;
+  }
+  .contact .paint-banner {
+    padding: 30px;
+    background: #333;
+    text-align: center;
+  }
+  .anniversary {
+    padding: 70px 20px;
+    text-align: center;
+  }
+  .anniversary .txt h2 {
+    font-size: 25px;
+  }
+  .anniversary .txt h2 span {
+    display: inline;
+  }
+  .anniversary .txt > div {
+    width: 100%;
+  }
+  .anniversary .object-ani {
+    display: none;
+  }
+  footer {
+    padding: 30px 0;
+    text-align: center;
+  }
+  footer .left > ul {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+  }
+  footer .left > ul li a {
+    line-height: 2;
+  }
+  footer .left .sns {
+    display: inline-block;
+  }
+  footer .left .sns .logo {
+    margin-right: 20px;
+  }
+  footer .left > p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .intro, .tip, .new, .today {
+    padding: 60px 0;
+  }
+  header .header-inner {
+    height: 64px;
+  }
+  header nav {
+    overflow-y: scroll;
+  }
+  .visual .visual-slider > div .txt h2 {
+    font-size: 25px;
+  }
+  .visual .notice {
+    font-size: 13px;
+  }
+  .visual .notice h4 {
+    margin-right: 16px;
+  }
+  .visual .notice p {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .intro {
+    margin-top: 60px;
+  }
+  .intro .heading {
+    margin-bottom: 40px;
+  }
+  .intro .heading p {
+    font-size: 14px;
+  }
+  .tip h2 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .tip h2 span {
+    display: block;
+  }
+  .new {
+    padding-bottom: 90px;
+  }
+  .new .heading {
+    margin-bottom: 40px;
+  }
+  .new .heading h2 {
+    margin-bottom: 20px;
+  }
+  .new .new-slider .item {
+    margin: 0;
+  }
+  .new .new-slider .slick-prev, .new .new-slider .slick-next {
+    bottom: -50px;
+  }
+  .banner {
+    padding-top: 70px;
+  }
+  .today h2, .today p {
+    text-align: left;
+  }
+  .today p {
+    margin-bottom: 30px;
+  }
+  .today .today-slider a {
+    margin-bottom: 20px;
+    padding: 25px;
+  }
+  .banner-service {
+    padding-top: 20px;
+  }
+  .contact {
+    margin-bottom: 60px;
+  }
+  .contact .contact-info .center ul li {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

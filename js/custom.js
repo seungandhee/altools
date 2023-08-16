@@ -2,7 +2,7 @@
 $('.visual-slider').slick({
   dots: true,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 7000,
   speed: 800,
   fade: true,
@@ -13,7 +13,7 @@ $('.visual-slider').slick({
 $('.notice-slider').slick({
   infinite: true,
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 4000,
   speed: 600,
   vertical: true,
   arrows: false

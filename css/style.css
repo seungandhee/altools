@@ -1269,6 +1269,11 @@ footer .left .sns ul li:nth-child(3) {
 footer .left .sns ul li a {
   color: transparent;
 }
+footer .left p span {
+  display: block;
+  color: rgb(15, 157, 186);
+  font-weight: 700;
+}
 footer .right {
   float: right;
 }
